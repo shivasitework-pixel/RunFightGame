@@ -1,0 +1,133 @@
+/* ===================================
+   Mobile Responsive
+=================================== */
+
+@media (max-width:1024px){
+
+header h1{
+    font-size:24px;
+}
+
+.player img{
+    width:90px;
+}
+
+.item{
+    width:70px;
+}
+
+.enemy{
+    width:90px;
+}
+
+.boss{
+    width:130px;
+}
+
+.level{
+    width:320px;
+}
+
+button{
+    font-size:18px;
+    padding:12px 24px;
+}
+
+}
+
+@media (max-width:768px){
+
+header{
+    height:60px;
+    padding:10px;
+}
+
+header h1{
+    font-size:18px;
+}
+
+.coins{
+    font-size:16px;
+    padding:6px 12px;
+}
+
+.game{
+    height:70vh;
+}
+
+.player img{
+    width:70px;
+}
+
+.item{
+    width:50px;
+}
+
+.enemy{
+    width:70px;
+}
+
+.boss{
+    width:90px;
+}
+
+.buttons{
+    width:100%;
+    bottom:10px;
+    display:flex;
+    justify-content:center;
+    gap:8px;
+}
+
+button{
+    font-size:14px;
+    padding:10px 16px;
+}
+
+.level{
+    width:260px;
+    bottom:80px;
+}
+
+#popup h2{
+    font-size:34px;
+}
+
+}
+
+@media (max-width:480px){
+
+header h1{
+    font-size:15px;
+}
+
+.coins{
+    font-size:14px;
+}
+
+.player img{
+    width:60px;
+}
+
+.item{
+    width:40px;
+}
+
+.enemy{
+    width:60px;
+}
+
+.boss{
+    width:80px;
+}
+
+.level{
+    width:200px;
+}
+
+button{
+    font-size:12px;
+    padding:8px 12px;
+}
+
+}
