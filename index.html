@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Fight Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🏃 RUN FIGHT GAME</h1>
+
+        <div class="coins">
+            💰 Coins : <span id="coin">0</span>
+        </div>
+    </header>
+
+
+    <!-- Game Area -->
+
+    <div class="game">
+
+        <div class="player">
+            <img src="images/player.png" alt="">
+        </div>
+
+        <!-- Objects -->
+
+        <img class="item burger" src="images/burger.png">
+
+        <img class="item icecream" src="images/icecream.png">
+
+        <img class="item dumbbell" src="images/dumbbell.png">
+
+        <img class="item enemy" src="images/enemy.png">
+
+        <img class="item boss" src="images/boss.png">
+
+        <img class="item chest" src="images/chest.png">
+
+    </div>
+
+
+
+    <!-- Buttons -->
+
+    <div class="buttons">
+
+        <button id="startBtn">
+            ▶ Start Game
+        </button>
+
+        <button id="fightBtn">
+            ⚔ Fight
+        </button>
+
+        <button id="rewardBtn">
+            🎁 Reward
+        </button>
+
+    </div>
+
+
+
+    <!-- Level -->
+
+    <div class="level">
+
+        <h2>Level 1</h2>
+
+        <div class="progress">
+
+            <div id="bar"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Popup -->
+
+    <div id="popup">
+
+        <h2>You Win 🎉</h2>
+
+        <button onclick="closePopup()">
+            Next Level
+        </button>
+
+    </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
